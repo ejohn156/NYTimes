@@ -9,11 +9,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="javascript/script.js"></script>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="icon" type="ico" href="assets/news.ico">
 </head>
 <body>
 
     <header>
 <!-- Title Image or Wording -->
+<h1 style="text-align: center">NYTimes API Search Engine</h1>
     </header>
     <div id="mainBody" class = "styleMe">
         <!-- Search Form -->
@@ -24,7 +28,7 @@
             <input type="text" id = "articleSearch">
             <!-- Number of Articles to Retrieve -->
             <p>Number of Records to Retrieve:</p>
-            <select>
+            <select id="numRec">
                 <option value="1">1</option>
                 <option value="3">3</option>
                 <option value="5">5</option>
@@ -37,7 +41,7 @@
             <p>End Year (Optional):</p>
             <input type="text" id = "endYear">
             <br><br>
-            <button id="search custom-btn">Search</button><button id="clearResults custome-btn">Clear Results</button>
+            <button id="search" class="custom-btn">Search</button><button id="clearResults" class="custom-btn">Clear Results</button>
         </form>
     </div>
 

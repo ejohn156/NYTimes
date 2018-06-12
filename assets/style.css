@@ -1,0 +1,85 @@
+header{
+    background: darkblue;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: white;
+    padding-bottom: 15%;
+    position: static;
+}
+
+
+.styleMe{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: 2px solid blue;
+
+
+}
+
+
+
+form{
+    background: white;
+    color: black;
+    font-weight: bolder;
+    height: 400px;
+    text-align: center;
+}
+
+#articleSearch{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+footer{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+
+}
+
+
+.blueTop{
+    position: fixed;
+    background: darkblue;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+
+}
+
+
+
+.custom-btn{
+    float: left;
+    height: 60px;
+    width: 200px;
+    border-radius: 6%;
+    background: rgba(14,102,40);opacity:0.4;
+    color: white;
+
+}
+
+#endYear{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#startYear{
+    position: relative;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
