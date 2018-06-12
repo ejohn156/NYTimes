@@ -4,8 +4,12 @@ header{
     margin-left: 5%;
     margin-right: 5%;
     color: white;
-    padding-bottom: 15%;
+    padding: 1.5%;
     position: static;
+}
+
+h1{
+    font-family: "Great Vibes", cursive;
 }
 
 
